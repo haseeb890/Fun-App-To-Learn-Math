@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FunApp",
+    "slug": "FunApp",
+    "version": "1.0.0",
+    "orientation": "Portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "assetBundlePatterns": ["**/*"],
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "plugins": [
+    [
+      "expo-screen-orientation",
+      {
+        "initialOrientation": "DEFAULT"
+      }
+    ]
+  ]
+}
